@@ -134,13 +134,13 @@ nav a:hover, a:active {
 }
 
 #rightmain {
-/*	clear: both;*/
 	background-color: #fff;
 	text-align: right;
 	padding: 10px;
 	line-height: 1.5;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
+/*	width: 290px;*/
 }
 
 .img-wrapper {
@@ -148,8 +148,8 @@ nav a:hover, a:active {
 	width: 274px;
 	display: flex;   
     flex-wrap: wrap;
-/*	overflow: auto;*/
-/*	float: left;*/
+	overflow: auto;
+	float: left;
 	margin: 20px 0 25px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -197,6 +197,10 @@ li a {
 
 .clear {
 	clear: both;
+}
+
+img.img-fluid {
+    width: 60px;
 }
 
 .botrow {
